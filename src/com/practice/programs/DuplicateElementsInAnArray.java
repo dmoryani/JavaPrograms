@@ -10,7 +10,7 @@ public class DuplicateElementsInAnArray {
 	
 	public static void main(String[] args) {
 		
-		String names[] = {"java","python","javascript","C","java" , "C"};
+		String names[] = {"java","python","javascript","C","Java"};
 		
 		
 		/*1. compare each element with the next... since there are 2 for loops 
@@ -58,7 +58,7 @@ public class DuplicateElementsInAnArray {
 			if(count == null){
 				map.put(name, 1); 
 			}else{
-				map.put(name,count++);
+				map.put(name,++count);
 			}
 		}
 		Set<Entry <String,Integer>> entrySet = map.entrySet();
@@ -69,8 +69,7 @@ public class DuplicateElementsInAnArray {
 			}
 		}
 	}
-	
-	
+
 		
 	}
 

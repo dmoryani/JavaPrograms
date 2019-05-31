@@ -18,10 +18,7 @@ public class SwapStrings {
 		System.out.println("After swapping");
 		System.out.println("value of a is "+a);
 		System.out.println("value of b is " +b);
-		
-		
-		
-		
+			
 	}
 	
 	
